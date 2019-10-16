@@ -1,0 +1,564 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="" lang="">
+<head>
+  <title>Test Results Report - Run on FIREFOX</title>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <meta name="description" content="TestNG unit test results." />
+  <link href="reportng.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="reportng.js"></script>
+</head>
+<body>
+<h1>Run on FIREFOX</h1>
+<p>
+  Test duration: 17.833s
+</p>
+
+  <table class="resultsTable configTable">
+    <tr><th colspan="3" class="header failedConfig">Failed Configuration</th></tr>
+              <tr class="group">
+        <td colspan="3">com.jobchat.account.Register_01_1_Validation_UserName_Password</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  inputValidEmailUnregister
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+        
+    
+        
+
+        <a href="javascript:toggleElement('exception-0', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.NoSuchWindowException: Window not found. The browser window may have been closed.<br/>
+Command duration or timeout: 16 milliseconds<br/>
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1&apos;, time: &apos;2016-06-30 17:37:03&apos;<br/>
+System info: host: &apos;NhanPVs-MacBook-Pro.local&apos;, ip: &apos;192.168.1.28&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.6&apos;, java.version: &apos;1.8.0_201&apos;<br/>
+Driver info: org.openqa.selenium.firefox.FirefoxDriver<br/>
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=47.0.2, platform=MAC, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]<br/>
+Session ID: 2e98faf6-4690-1243-a6bd-26ba64086315</b></a><br />
+    <div class="stackTrace" id="exception-0">
+              sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)<br />
+              sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)<br />
+              java.lang.reflect.Constructor.newInstance(Constructor.java:423)<br />
+              org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)<br />
+              org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:577)<br />
+              commons.AbstractPage.highlightElement(AbstractPage.java:430)<br />
+              commons.AbstractPage.getTextElement(AbstractPage.java:174)<br />
+              pageObjects.RegisterPageObject.isEmailPhoneUserTextDisplayed(RegisterPageObject.java:26)<br />
+              com.jobchat.account.Register_01_1_Validation_UserName_Password.inputValidEmailUnregister(Register_01_1_Validation_UserName_Password.java:42)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
+              java.lang.reflect.Method.invoke(Method.java:498)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)<br />
+              org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)<br />
+              org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:585)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:774)<br />
+              org.testng.TestRunner.run(TestRunner.java:624)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:359)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:261)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1140)<br />
+              org.testng.TestNG.run(TestNG.java:1048)<br />
+              org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:112)<br />
+              org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:205)<br />
+              org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:176)<br />
+                    <b>Caused by: </b> <a href="javascript:toggleElement('exception-1', 'block')" title="Click to expand/collapse">org.openqa.selenium.NoSuchWindowException: Window not found. The browser window may have been closed.<br/>
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1&apos;, time: &apos;2016-06-30 17:37:03&apos;<br/>
+System info: host: &apos;NhanPVs-MacBook-Pro.local&apos;, ip: &apos;192.168.1.28&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.6&apos;, java.version: &apos;1.8.0_201&apos;<br/>
+Driver info: driver.version: unknown</a><br />
+        <div class="stackTrace" id="exception-1">
+                      &lt;anonymous class&gt;.nsCommandProcessor.prototype.execute(file:///var/folders/h_/v27c412j0sqbrck5bd8pqvfh0000gn/T/anonymous4650728440404723136webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12719)<br />
+                      &lt;anonymous class&gt;.Dispatcher.executeAs/&lt;(file:///var/folders/h_/v27c412j0sqbrck5bd8pqvfh0000gn/T/anonymous4650728440404723136webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:9558)<br />
+                      &lt;anonymous class&gt;.Resource.prototype.handle(file:///var/folders/h_/v27c412j0sqbrck5bd8pqvfh0000gn/T/anonymous4650728440404723136webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:9705)<br />
+                      &lt;anonymous class&gt;.Dispatcher.prototype.dispatch(file:///var/folders/h_/v27c412j0sqbrck5bd8pqvfh0000gn/T/anonymous4650728440404723136webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:9652)<br />
+                      &lt;anonymous class&gt;.WebDriverServer/&lt;.handle(file:///var/folders/h_/v27c412j0sqbrck5bd8pqvfh0000gn/T/anonymous4650728440404723136webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:12517)<br />
+                      &lt;anonymous class&gt;.createHandlerFunc/&lt;(file:///var/folders/h_/v27c412j0sqbrck5bd8pqvfh0000gn/T/anonymous4650728440404723136webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:2054)<br />
+                      &lt;anonymous class&gt;.ServerHandler.prototype.handleResponse(file:///var/folders/h_/v27c412j0sqbrck5bd8pqvfh0000gn/T/anonymous4650728440404723136webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:2387)<br />
+                      &lt;anonymous class&gt;.Connection.prototype.process(file:///var/folders/h_/v27c412j0sqbrck5bd8pqvfh0000gn/T/anonymous4650728440404723136webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:1223)<br />
+                      &lt;anonymous class&gt;.RequestReader.prototype._handleResponse(file:///var/folders/h_/v27c412j0sqbrck5bd8pqvfh0000gn/T/anonymous4650728440404723136webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:1677)<br />
+                      &lt;anonymous class&gt;.RequestReader.prototype._processBody(file:///var/folders/h_/v27c412j0sqbrck5bd8pqvfh0000gn/T/anonymous4650728440404723136webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:1525)<br />
+                      &lt;anonymous class&gt;.RequestReader.prototype.onInputStreamReady(file:///var/folders/h_/v27c412j0sqbrck5bd8pqvfh0000gn/T/anonymous4650728440404723136webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:1393)<br />
+                  </div>
+          </div>
+      </td>
+</tr>
+    
+          <tr><td colspan="3">&nbsp;</td></tr>
+      <tr><td colspan="3" class="header skippedConfig">Skipped Configuration</td></tr>
+                    <tr>
+          <td colspan="3" class="group">com.jobchat.account.Register_01_1_Validation_UserName_Password</td>
+        </tr>
+                
+<tr>
+  <td class="method">
+                  afterClass
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  inputValidEmailUnregister
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  inputValidEmailUnregister
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  inputValidEmailUnregister
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  inputValidEmailUnregister
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  inputValidEmailUnregister
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  inputValidEmailUnregister
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  inputValidEmailUnregister
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  inputValidEmailUnregister
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  inputValidEmailUnregister
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  refreshBrowser
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  refreshBrowser
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  refreshBrowser
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  refreshBrowser
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  refreshBrowser
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  refreshBrowser
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  refreshBrowser
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  refreshBrowser
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  refreshBrowser
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  refreshBrowser
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+            </table>
+
+
+
+  <table class="resultsTable" width="100%">
+    <tr><th colspan="3" class="header skipped">Skipped Tests</th></tr>
+          <tr>
+        <td colspan="3" class="group">com.jobchat.account.Register_01_1_Validation_UserName_Password</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  TC02_UserName_Empty
+      </td>
+  <td class="duration">
+    0.001s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  TC03_UserName_OnlySpace
+      </td>
+  <td class="duration">
+    0.003s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  TC04_UserName_MaxLength255Chars
+      </td>
+  <td class="duration">
+    0.004s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  TC05_Password_Empty
+      </td>
+  <td class="duration">
+    0.001s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  TC06_Password_OnlySpace
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  TC07_Password_LessThan6Chars
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  TC09_Navigate_From_Register_To_Login
+      </td>
+  <td class="duration">
+    0.001s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  TC10_Open_TermOfUse
+      </td>
+  <td class="duration">
+    0.001s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  TC11_Check_Operate_View_Password
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  TC12_ValidData_and_Register_successfully
+      </td>
+  <td class="duration">
+    0.001s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+      </table>
+
+  <table class="resultsTable">
+    <tr><th colspan="3" class="header passed">Passed Tests</th></tr>
+          <tr>
+        <td colspan="3" class="group">com.jobchat.account.Register_01_1_Validation_UserName_Password</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  TC01_DontInputDataAllField
+      </td>
+  <td class="duration">
+    1.893s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+      </table>
+  
+</body>
+</html>
